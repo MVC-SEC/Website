@@ -1,93 +1,16 @@
-/* RULE SPECIFICATIONS */
-@font-face {
-  font-family: Liberation;
-  src: url('../media/fonts/LiberationSans-Bold.ttf'); /* IE9 Compat Modes */
-  src: url('../media/fonts/LiberationSans-Bold.ttf') format('truetype'); /* web standard */
-}
-
 /* GLOBAL CLASS */
 .pure-g {
 	letter-spacing: 1px;
 }
 /* END OF GLOBAL CLASS */
 
-/* PAGE NOT FOUND && UNDER CONSTRUCTION STYLESHEET */
-#pageNotFound{
-	max-width: 	100%;
-    height: 	auto;
-    width: 		auto\9; /* ie8 */
-}
-#underConstruction{
-	max-width: 	100%;
-    height: 	auto;
-    width: 		auto\9; /* ie8 */
-}
-/* END OF PAGE NOT FOUND && UNDER CONSTRUCTION STYLESHEET */
-
-/* HEADER ID STYLESHEET */
-#header {
-	font-family: "Times New Roman", Times, serif;
-	width: 100%;
-	height: 20%;
-	text-align: center; 
-	background-color: #ede8de;
-	color:			 	#303850;
-
-	letter-spacing: 2px;
-}
-
-#header .pure-menu {
-	position:			fixed;
-	width: 				100%;
-	background-color: 	#303850;
-}
-#header .pure-menu ul {
-	font-family: 	Liberation;
-	width: 			100%;
-	color:			#fffbec;
-}
-#header .pure-menu li {
-	width: 				25%;
-	font-size: 			0.8em;
-}
-		/* fenrirAB anchor: unhover, hover */
-#header .pure-menu li a {
-	color:	#fffbec;
-}
-#header .pure-menu li:hover a::before {
-	content: ">>";
-}
-#header .pure-menu li a:hover {
-	background-color: #66cded;
-}
-#header .pure-menu li:hover a::after {
-	content: "<<";
-}
-#header .pure-menu-selected {
-	color: red;	
-}
-	/* HEADER LOGO
-#header-logo {
-	position: 	absolute;
-	top:		0px;
-	left: 		10px;
-
-	width: 		10%;
-	height: 	10%;
-}
-END OF HEADER ID */
-
-
-/* BODY STYLESHEET*/
-	/* TODO stylesheet here... */
-/* END OF BODY STYLESHEET */
-
 /* HOME STYLESHEET */
 #home {
 	height: 			100%;
 	letter-spacing: 	1px;
 	color: 				white;
-/*	background-image: 	url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-17.jpg");*/
+	/*background-image: 	url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-17.jpg");*/
+	background-color: 	#0026E6;
 	background-repeat: 	repeat-y;
 	background-size: 	auto%;
 }
@@ -95,7 +18,7 @@ END OF HEADER ID */
 	height: 			100%;
 	padding-right: 		5px;
 	padding-left: 		5px;
-	background-color: 	rgba(0, 0, 0, .6);
+	/*background-color: 	rgba(0, 0, 0, .6);*/
 	z-index: 			2;
 	text-align: 		center;
 	font-family: 		"Times New Roman", Times, serif;

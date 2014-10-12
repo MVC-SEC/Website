@@ -1,0 +1,140 @@
+/*Written from SCRATCH by fenrirAB because he hates copy-and-paste CSS
+	this is cleaner and easier to understand that that PURE-BULLSH!T */
+
+/* DEBUGGING CLASS
+.fenrirAB_TEST{
+	width:				100%;
+    height:				5000px;
+    background-color: 	red;
+}
+/* KEEP ABOVE CODE CLOSE */
+
+/* RULE SPECIFICATIONS */
+@font-face {
+  font-family: Liberation;
+  src: url('../media/fonts/LiberationSans-Bold.ttf'); /* IE9 Compat Modes */
+  src: url('../media/fonts/LiberationSans-Bold.ttf') format('truetype'); /* web standard */
+}
+/* END OF RULE */
+
+html, body {
+   	padding: 	0;
+  	margin: 	0;
+}
+
+/* PAGE NOT FOUND && UNDER CONSTRUCTION STYLESHEET */
+#pageNotFound{
+	max-width: 	100%;
+    height: 	auto;
+    width: 		auto\9; /* ie8 */
+}
+#underConstruction{
+	max-width: 	100%;
+    height: 	auto;
+    width: 		auto\9; /* ie8 */
+}
+/* END OF PAGE NOT FOUND && UNDER CONSTRUCTION STYLESHEET */
+
+/* my very own mainHeader Stylesheet! FORGET PURE-CSS */
+#headerID {
+	position: 			fixed;
+	padding: 			0;
+   	margin: 			auto;
+	width: 				100%;
+	background-color: 	#000000; /*will transform on headerScript.js*/
+}
+#mainNav {
+	font-family: 	Liberation;	
+	width:			100%;
+}
+#mainNav #clubName {
+	float: 			left;
+	padding:		5px 0px;
+	text-align:	 	left;
+	width:			40%;
+	list-style:		none;
+}
+#mainNav #navList {
+	float: 			left;
+	padding:		5px 0px;
+	text-align:	 	center;
+	width:			10%;
+	list-style:		none;
+}
+#mainNav #navButton{
+	margin-top: 	-18px; /* is negative px conventional? */
+	margin-right: 	5%;
+	float: 			right;
+	padding:		5px 0px;
+	width:			10%;
+	list-style:		none;
+}
+#navList:hover #navLinks::before{
+	content: ">>";
+}
+#navList:hover #navLinks::after{
+	content: "<<";
+}
+#mainNav #mainLink, #navLinks {
+	text-decoration: none;
+	color: #EEEEEE;
+}
+/* END OF mainHeader IDs */
+
+/* fenrirAB - navButtonClass -- TOOK ME FOREVER!!!*/
+.navButtonClass {
+
+	/*firefox*/
+	background:-moz-linear-gradient(center top, #2cc21b 5%, #1bb316 100%);
+	-moz-box-shadow:					inset 0px 1px 0px 0px #caefab;
+	-moz-border-radius-topleft:			6px;
+	-moz-border-radius-topright:		6px;
+	-moz-border-radius-bottomright:		6px;
+	-moz-border-radius-bottomleft:		6px;
+
+	/*webkit*/
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2cc21b), color-stop(1, #1bb316));
+	-webkit-box-shadow:					inset 0px 1px 0px 0px #caefab;
+	-webkit-border-top-left-radius:		6px;
+	-webkit-border-top-right-radius:	6px;
+	-webkit-border-bottom-right-radius:	6px;
+	-webkit-border-bottom-left-radius:	6px;
+
+	/*CSS3*/
+	box-shadow:inset 0px 1px 0px 0px #caefab;
+	background-color:					#2cc21b;
+	border-top-left-radius:				6px;
+	border-top-right-radius:			6px;
+	border-bottom-right-radius:			6px;
+	border-bottom-left-radius:			6px;
+
+	display:		inline-block;
+	color:			#EEEEEE;
+	border:			1px solid #268a16;
+	width:			180px;
+	height:			48px;
+	line-height:	48px;
+	text-indent:	0;
+
+	font-family: 	Liberation;
+	font-size:		18px;
+	font-weight:	bold;
+	font-style:		normal;
+	text-decoration:none;
+	text-align:		center;
+	text-shadow:	1px 1px 0px #aade7c;
+
+	/*some IE bullsh*t -- hate this one!*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2cc21b', endColorstr='#1bb316');
+}
+/* TODO reverses button scheme on :hover */
+.navButtonClass:hover {
+	background:-moz-linear-gradient(center top, #1bb316 5%, #2cc21b 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #1bb316), color-stop(1, #2cc21b));
+	background-color:#1bb316;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1bb316', endColorstr='#2cc21b');
+}
+.navButtonClass:active {
+	position:relative;
+	top:1px;
+}
