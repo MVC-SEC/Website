@@ -1,3 +1,4 @@
+//TODO fenrirAB - awwwwww yeeeeaaaahhhh!
 $(window).scroll(function() {
 	if($(this).scrollTop() > 350) {
 		$("#headerID").css('background-color', 'rgba(0, 0, 0, 0.60)');
