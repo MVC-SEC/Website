@@ -90,7 +90,7 @@ footer{
     transition:			height .8s;
 }
 footer:hover{
-    height:				30%;
+    height:				210px;
 }
 footer p{
     margin:				0;
@@ -99,7 +99,7 @@ footer p{
     text-indent:        0px;
 }
 .minimalisticFooter{
-    line-height: 3		0px;
+    line-height:        30px;
     text-align:			center;
 }
 footer a{

@@ -66,10 +66,7 @@ $( "#accordion" ).accordion({ icons: { "header": "ui-icon-plus", "activeHeader":
 				</div>
 				<h3>Meetings</h3>
 				<div style="text-align: left;">
-					<p style="text-indent: 0px;">Feel free to stopy by and say hello!</p>
-					<br />
-					<br />
-					<ul style="text-align: left;">
+					<p style="text-indent: 0px; float:none;">Feel free to stopy by and say hello!</p>
 						<li>&#8226; Fridays</li>
 						<li>&#8226; 3:00 P.M.</li>
 						<li>&#8226; Humanities Room # 324</li>
