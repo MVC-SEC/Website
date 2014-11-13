@@ -19,31 +19,33 @@
 	<div class="pure-u-md-18-24 pure-u-22-24" id="homeCenterdiv">
 		<div class="homeContent">
 		<div class="homeInnerContent">
-			<h3>Content</h3>
+			<h3>Motivation</h3>
 			<hr>
 			<p>
-				This is a sample paragraph. It is meant to test the content on the homepage.
-				Soon there will be news listed here with important info.
+				Our members are motivated to succeed in their careers. That success begins now,
+				pushing beyond the normal limits of community college. Where will 
+				<strong><i>you</i></strong>	be in five years?
+					
 			</p>
 		</div>
 		</div>
 		<div class="homeContent">
 		<div class="homeInnerContent">
-			<h3>Content</h3>
+			<h3>Dedication</h3>
 			<hr>
 			<p>
-				This is a sample paragraph. It is meant to test the content on the homepage.
-				Soon there will be news listed here with important info.
+				We push hard. We get things done. Nothing can be accomplished without putting time
+				and effort into it. We know what's important, and we dedicate ourselves to pursuing it.
 			</p>
 		</div>
 		</div>
 		<div class="homeContent">
 		<div class="homeInnerContent">
-			<h3>Content</h3>
+			<h3>Inspiration</h3>
 			<hr>
 			<p>
-				This is a sample paragraph. It is meant to test the content on the homepage.
-				Soon there will be news listed here with important info.
+				What good is talent without the ideas to back it up? It's our out-of-the box thinking 
+				that makes us stand out from the crowd and gain recognition. 
 			</p>
 		</div>
 		</div>
