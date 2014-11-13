@@ -95,7 +95,7 @@ html, body {
 	min-width: 		8%;
 	list-style:		none;
 	float: 			right;
-	font-size:		2vw;
+	font-size:		1.5vw;
 }
 #mainNav #navButton{
 	display: inline-block;
@@ -343,4 +343,46 @@ html, body {
 	}
 /* END OF mainHeader IDs */
 
+}
+/*join us popup*/
+#joinUs{
+	width:				100%;
+	height:				100%;
+	position:			fixed;
+	display:			none;
+	background-color:	rgba(0,0,0,.95);
+	z-index:			100;
+}
+#joinUs table{
+	margin:				auto;
+}
+#joinUs td{
+	padding-top:		10%;
+}
+#joinUs p{
+	margin:				auto;
+	text-align:			center;
+	float:				none;
+	text-indent:		0;
+	margin-top:			5%;
+}
+#joinButtons{
+	text-align:			center;
+	bottom:				10%;
+	left:				50%;
+	transform:			translate(-50%, 0);
+	position:			absolute;
+}
+#joinButtons td{
+	width:				150px;
+	padding:			1%;
+}
+#joinUs .navButtonClass{
+	width: 				100%;
+}
+.joinContent{
+	text-align:			center;
+	margin:				auto;
+	margin-top:			10%;
+	color:				#FFFFFF;
 }

@@ -8,7 +8,7 @@
 				<ul id="navUL">
 					<a id="mainLink" href="?page=Home"><img id="clubLogo2" src="display/media/images/logo2.png" /></a>
 					<a id="mainLink" href="?page=Home"><img id="clubLogo" src="display/media/images/logo1.png" /></a>
-					<li id="navButton"><input class="navButtonClass" id="nButton" type="submit" value="JOIN US!" /></li>
+					<li id="navButton"><input class="navButtonClass" id="nButton" type="submit" value="JOIN US!" onclick="join()"/></li>
 					<!--<li id="clubName"><a id="mainLink" href="?page=Home">Software Engineering Club</a></li>  TESTING 404 PAGE -->
 					<?php getNav(); ?>
 				</ul>
@@ -17,6 +17,79 @@
 			<div class="pure-u-md-3-24 pure-u-1-24">
 			</div>
 		</div>
+		</div>
+		<div id="joinUs">
+			<form class="joinContent" action="?form">
+				<img src="display/media/images/logo2.png">
+			<table>
+				<tr>
+					<td>
+						First Name*
+					</td>
+					<td>
+						<input type="text" name="fname">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Last Name*
+					</td>
+					<td>
+						<input type="text" name="lname">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Email*
+					</td>
+					<td>
+						<input type="text" name="email">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Phone
+					</td>
+					<td>
+						<input type="text" name="phone">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Student ID*
+					</td>
+					<td>
+						<input type="text" name="id">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						ASMVC Member? *
+					</td>
+					<td>
+						<input type="radio" name="asmvc" value="yes">Yes
+						<input type="radio" name="asmvc" value="no">No
+					</td>
+				</tr>
+			</table>
+			<p>Required fields are marked with *</p>
+			<table id="joinButtons">
+			<tr>
+				<td>
+				<input class="navButtonClass" id="nButton" type="button"
+					value="CLOSE" onclick="joinClose()"/>
+				</td>
+				<td>
+				<input class="navButtonClass" id="nButton" type="button" 
+					value="JOIN"/>
+				</td>
+				<td>
+				<input class="navButtonClass" id="nButton" type="reset" 
+					value="CLEAR"/>
+				</td>
+			</tr>
+			</table>
+			</form>
 		</div>
 <!-- FOR TESTING 
 <div class="fenrirAB_TEST">

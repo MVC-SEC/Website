@@ -32,3 +32,11 @@ $(window).scroll(function() {
 	}
 	var map = new google.maps.Map(mapCanvas, mapOptions)
   }
+
+//Join Us button
+function join(){
+	document.getElementById("joinUs").style.display = "inline-block";
+}
+function joinClose(){
+	document.getElementById("joinUs").style.display = "none";
+}

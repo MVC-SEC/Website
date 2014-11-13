@@ -6,6 +6,7 @@ google.maps.event.addDomListener(window, 'load', initializeMap);
 	</div>
 	<div class="pure-u-md-18-24 pure-u-22-24" id="centerdiv">
 		<hr style="margin-top: 100px;">
+		<h1>Contact</h1>
 		<br />
 		<br />
 		<div id="buttonDiv">
